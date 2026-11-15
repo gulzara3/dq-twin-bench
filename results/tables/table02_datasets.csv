@@ -1,0 +1,5 @@
+Subset,Operating conditions,Fault modes,Training engines,Test engines,Training windows,Validation windows,Test engines with RUL <= 30
+FD001,1,1,100,100,15332,2399,25
+FD002,6,1,260,259,39424,6795,61
+FD003,1,2,100,100,18749,3071,20
+FD004,6,2,249,248,45594,8434,53

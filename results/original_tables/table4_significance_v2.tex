@@ -1,0 +1,22 @@
+\begin{table}
+\caption{Number of C-MAPSS subsets (of 4) with a significant RMSE difference (paired Wilcoxon, p$<$0.05, severity 3).}
+\label{tab:sig}
+\begin{tabular}{lrrr}
+\toprule  % requires \usepackage{booktabs}
+corruption & CNN vs Transformer & LSTM vs CNN & LSTM vs Transformer \\
+\midrule
+bias\_offset & 2 & 3 & 4 \\
+channel\_desync & 3 & 2 & 3 \\
+concept\_drift & 2 & 4 & 4 \\
+drift & 3 & 3 & 1 \\
+gaussian\_noise & 3 & 4 & 4 \\
+missing\_mar & 3 & 3 & 3 \\
+missing\_mcar & 3 & 3 & 3 \\
+missing\_mnar & 2 & 3 & 3 \\
+nongaussian\_noise & 4 & 2 & 4 \\
+sampling\_reduction & 4 & 3 & 3 \\
+sensor\_dropout & 1 & 2 & 3 \\
+timestamp\_jitter & 4 & 4 & 4 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,13 @@
+Fault,FD001,FD002,FD003,FD004
+Calibration drift,2.64,2.39,3.34,2.47
+MNAR missingness,2.45,2.33,2.5,2.17
+Regime shift,2.07,1.56,2.06,1.61
+MAR missingness,1.7,1.49,1.76,1.53
+Calibration bias,1.74,1.41,1.63,1.47
+Sensor dropout,1.45,1.37,1.6,1.43
+Heavy-tailed noise,1.27,1.19,1.51,1.28
+Sampling reduction,1.25,1.37,1.27,1.26
+Gaussian noise,1.22,1.17,1.41,1.21
+MCAR missingness,1.08,1.11,1.09,1.09
+Channel desynchronisation,1.03,1.05,1.05,1.04
+Timestamp jitter,1.0,1.0,1.01,1.0

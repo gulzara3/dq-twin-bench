@@ -1,0 +1,46 @@
+\begin{table}
+\caption{Fidelity under severity-3 data-quality faults (FD001); Score is the seed-median.}
+\label{tab:sev3_FD001}
+\begin{tabular}{llrrrr}
+\toprule  % requires \usepackage{booktabs}
+model & corruption & RMSE & Score\_med & PICP & MaintCost \\
+\midrule
+CNN & bias\_offset & 17.32 & 434 & 0.86 & 91.60 \\
+CNN & channel\_desync & 14.36 & 327 & 0.95 & 240.40 \\
+CNN & concept\_drift & 25.86 & 1.35e+03 & 0.59 & 93.40 \\
+CNN & drift & 37.17 & 5.03e+03 & 0.37 & 159.20 \\
+CNN & gaussian\_noise & 14.61 & 336 & 0.95 & 246.40 \\
+CNN & missing\_mar & 17.73 & 608 & 0.86 & 711.60 \\
+CNN & missing\_mcar & 14.96 & 352 & 0.94 & 253.40 \\
+CNN & missing\_mnar & 40.02 & 9.78e+04 & 0.64 & 1250.00 \\
+CNN & nongaussian\_noise & 15.16 & 368 & 0.95 & 297.00 \\
+CNN & sampling\_reduction & 19.21 & 629 & 0.87 & 222.00 \\
+CNN & sensor\_dropout & 20.64 & 1.24e+03 & 0.82 & 701.40 \\
+CNN & timestamp\_jitter & 14.29 & 337 & 0.95 & 232.60 \\
+LSTM & bias\_offset & 17.50 & 491 & 0.89 & 84.80 \\
+LSTM & channel\_desync & 14.38 & 349 & 0.94 & 200.80 \\
+LSTM & concept\_drift & 23.86 & 1.35e+03 & 0.55 & 66.40 \\
+LSTM & drift & 35.07 & 3.62e+03 & 0.41 & 82.40 \\
+LSTM & gaussian\_noise & 15.10 & 389 & 0.94 & 200.80 \\
+LSTM & missing\_mar & 18.44 & 745 & 0.84 & 610.20 \\
+LSTM & missing\_mcar & 15.16 & 403 & 0.94 & 193.60 \\
+LSTM & missing\_mnar & 37.93 & 5.64e+04 & 0.68 & 1232.00 \\
+LSTM & nongaussian\_noise & 15.14 & 416 & 0.94 & 206.20 \\
+LSTM & sampling\_reduction & 19.09 & 953 & 0.89 & 157.00 \\
+LSTM & sensor\_dropout & 19.04 & 881 & 0.85 & 582.60 \\
+LSTM & timestamp\_jitter & 14.03 & 338 & 0.95 & 197.00 \\
+Transformer & bias\_offset & 21.22 & 751 & 0.81 & 80.80 \\
+Transformer & channel\_desync & 15.82 & 430 & 0.92 & 116.80 \\
+Transformer & concept\_drift & 29.99 & 2.28e+03 & 0.49 & 73.40 \\
+Transformer & drift & 36.18 & 3.68e+03 & 0.35 & 75.20 \\
+Transformer & gaussian\_noise & 17.61 & 529 & 0.90 & 105.20 \\
+Transformer & missing\_mar & 19.68 & 866 & 0.88 & 607.00 \\
+Transformer & missing\_mcar & 16.50 & 490 & 0.92 & 125.40 \\
+Transformer & missing\_mnar & 42.04 & 5.46e+04 & 0.73 & 1250.00 \\
+Transformer & nongaussian\_noise & 19.40 & 665 & 0.88 & 114.60 \\
+Transformer & sampling\_reduction & 21.19 & 1.11e+03 & 0.89 & 151.00 \\
+Transformer & sensor\_dropout & 20.76 & 1.01e+03 & 0.89 & 638.60 \\
+Transformer & timestamp\_jitter & 16.26 & 416 & 0.92 & 82.40 \\
+\bottomrule
+\end{tabular}
+\end{table}

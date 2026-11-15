@@ -1,0 +1,13 @@
+Fault,LSTM (all),CNN (all),Transformer (all),Mean (all),LSTM (s5),CNN (s5),Transformer (s5),Mean (s5)
+Calibration drift,2.74,2.94,2.43,2.71,4.84,5.17,3.89,4.63
+MNAR missingness,2.55,2.35,2.19,2.37,3.79,3.48,3.11,3.46
+Regime shift,1.76,1.97,1.75,1.82,3.09,3.34,2.81,3.08
+MAR missingness,1.65,1.69,1.51,1.62,3.04,3.32,2.66,3.01
+Calibration bias,1.44,1.77,1.47,1.56,2.35,3.3,2.37,2.67
+Sensor dropout,1.51,1.47,1.41,1.46,2.19,2.01,2.02,2.07
+Heavy-tailed noise,1.18,1.3,1.46,1.31,1.5,1.91,2.32,1.91
+Sampling reduction,1.3,1.33,1.23,1.29,1.59,1.65,1.51,1.58
+Gaussian noise,1.19,1.24,1.33,1.25,1.57,1.81,2.13,1.84
+MCAR missingness,1.11,1.11,1.05,1.09,1.25,1.27,1.14,1.22
+Channel desynchronisation,1.06,1.04,1.02,1.04,1.18,1.13,1.09,1.13
+Timestamp jitter,1.01,1.0,1.0,1.0,1.01,1.0,1.0,1.0

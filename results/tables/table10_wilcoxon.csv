@@ -1,0 +1,5 @@
+Pair,Significant (raw),Significant (Holm),First model lower,Second model lower,Tests
+LSTM vs CNN,36,34,27,7,48
+LSTM vs Transformer,39,34,32,2,48
+CNN vs Transformer,34,31,24,7,48
+All pairs,109,99,,,144

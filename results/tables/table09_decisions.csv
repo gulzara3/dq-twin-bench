@@ -1,0 +1,14 @@
+Fault,FAR s3,MR s3,Cost ratio s3,FAR s5,MR s5,Cost ratio s5
+Clean input,0.023,0.078,1.0,0.023,0.078,1.0
+Calibration drift,0.201,0.003,1.41,0.808,0.016,6.37
+MNAR missingness,0.0,0.993,11.43,0.0,0.999,11.52
+Regime shift,0.115,0.004,0.89,0.394,0.002,2.8
+MAR missingness,0.022,0.322,3.43,0.008,0.857,9.83
+Calibration bias,0.043,0.053,0.98,0.23,0.111,2.99
+Sensor dropout,0.011,0.446,5.04,0.007,0.804,9.4
+Heavy-tailed noise,0.028,0.096,1.19,0.078,0.179,2.48
+Sampling reduction,0.028,0.117,1.6,0.033,0.216,2.72
+Gaussian noise,0.024,0.084,1.07,0.067,0.174,2.36
+MCAR missingness,0.022,0.092,1.16,0.024,0.137,1.66
+Channel desynchronisation,0.022,0.088,1.1,0.019,0.15,1.75
+Timestamp jitter,0.023,0.079,1.0,0.023,0.08,1.01

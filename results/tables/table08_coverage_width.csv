@@ -1,0 +1,14 @@
+Fault,PICP s1,PICP s3,PICP s5,Width ratio s1,Width ratio s3,Width ratio s5
+Clean input,0.939,0.939,0.939,1.0,1.0,1.0
+Calibration drift,0.879,0.377,0.059,0.93,0.63,0.24
+MNAR missingness,0.882,0.707,0.634,1.05,1.28,1.43
+Regime shift,0.899,0.638,0.279,0.97,0.84,0.57
+MAR missingness,0.937,0.882,0.692,1.01,1.03,1.25
+Calibration bias,0.935,0.854,0.46,1.0,0.94,0.72
+Sensor dropout,0.91,0.845,0.727,1.03,1.08,1.2
+Heavy-tailed noise,0.938,0.905,0.718,1.0,0.98,0.9
+Sampling reduction,0.939,0.872,0.808,1.0,0.98,0.98
+Gaussian noise,0.938,0.922,0.729,1.0,0.99,0.9
+MCAR missingness,0.936,0.928,0.894,1.0,1.0,0.99
+Channel desynchronisation,0.939,0.936,0.916,1.0,1.0,1.02
+Timestamp jitter,0.938,0.938,0.939,1.0,1.0,1.0

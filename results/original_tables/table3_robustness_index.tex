@@ -1,0 +1,22 @@
+\begin{table}
+\caption{Corruption Robustness Index: mean RMSE ratio versus clean input, averaged over subsets, severities, injection seeds and training seeds (1.0 = unaffected).}
+\label{tab:cri}
+\begin{tabular}{llrr}
+\toprule  % requires \usepackage{booktabs}
+corruption & LSTM & CNN & Transformer \\
+\midrule
+drift & 2.74 & 2.94 & 2.43 \\
+missing\_mnar & 2.55 & 2.35 & 2.19 \\
+concept\_drift & 1.76 & 1.97 & 1.75 \\
+missing\_mar & 1.65 & 1.69 & 1.51 \\
+sensor\_dropout & 1.51 & 1.47 & 1.41 \\
+bias\_offset & 1.44 & 1.77 & 1.47 \\
+sampling\_reduction & 1.30 & 1.33 & 1.23 \\
+gaussian\_noise & 1.19 & 1.24 & 1.33 \\
+nongaussian\_noise & 1.18 & 1.30 & 1.46 \\
+missing\_mcar & 1.11 & 1.11 & 1.05 \\
+channel\_desync & 1.06 & 1.04 & 1.02 \\
+timestamp\_jitter & 1.01 & 1.00 & 1.00 \\
+\bottomrule
+\end{tabular}
+\end{table}

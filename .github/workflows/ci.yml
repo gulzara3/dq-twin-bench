@@ -1,0 +1,25 @@
+name: checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: pip install -r requirements.txt pytest
+      - name: Integrity tests
+        run: pytest -q
+      - name: Check the numbers quoted in the paper
+        run: python analysis/verify_claims.py --quiet
+      - name: Rebuild tables
+        run: python analysis/make_tables.py

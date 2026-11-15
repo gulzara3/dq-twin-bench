@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, its results or its code, please cite the paper below."
+title: "DQ-Twin-Bench: a severity-graded benchmark of sensor data-quality faults for deep-learning prognostics"
+type: software
+authors:
+  - family-names: Alam
+    given-names: Gulzar
+    affiliation: Ulster University
+    email: g.alam@ulster.ac.uk
+version: 1.0.0
+date-released: 2026-11-15
+license: MIT
+repository-code: "https://github.com/YOUR-USERNAME/dq-twin-bench"
+keywords:
+  - prognostics and health management
+  - remaining useful life
+  - data quality
+  - sensor faults
+  - conformal prediction
+  - predictive maintenance
+  - C-MAPSS
+preferred-citation:
+  type: unpublished
+  title: "How multi-source sensor data-quality degradation propagates through deep-learning prognostics: a severity-graded benchmark of accuracy loss, uncertainty collapse, and maintenance decision risk"
+  authors:
+    - family-names: Alam
+      given-names: Gulzar
+      affiliation: Ulster University
+  year: 2026
+  notes: "Manuscript under review"
