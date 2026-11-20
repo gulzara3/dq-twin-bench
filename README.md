@@ -125,7 +125,7 @@ If you use the benchmark, its results or its code, please cite the paper. GitHub
 ```bibtex
 @unpublished{alam2026dqtwinbench,
   author = {Alam, Gulzar},
-  title  = {How multi-source sensor data-quality degradation propagates through deep-learning prognostics: a severity-graded benchmark of accuracy loss, uncertainty collapse, and maintenance decision risk},
+  title  = {Sensor data quality and the reliability of deep-learning prognostics: a severity-graded benchmark of accuracy, uncertainty and maintenance decisions},
   note   = {Manuscript under review},
   year   = {2026}
 }
