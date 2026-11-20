@@ -8,7 +8,7 @@
 
 This repository accompanies the paper
 
-> G. Alam, "How multi-source sensor data-quality degradation propagates through deep-learning prognostics: a severity-graded benchmark of accuracy loss, uncertainty collapse, and maintenance decision risk", manuscript under review, 2026.
+> G. Alam, "Sensor data quality and the reliability of deep-learning prognostics: a severity-graded benchmark of accuracy, uncertainty and maintenance decisions", manuscript under review, 2026.
 
 Deep-learning models for remaining useful life (RUL) are trained on clean sensor records but run on streams whose quality degrades. DQ-Twin-Bench measures what that degradation does to three things at once: prediction error, the coverage of conformal prediction intervals, and alarm-based maintenance decisions.
 
